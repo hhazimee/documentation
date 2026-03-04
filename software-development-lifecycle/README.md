@@ -158,3 +158,11 @@ Key documents:
 - [Security Testing Standard](phase-6-testing/standards/security-testing-standard.md)
 - [Execute Test Cycle Runbook](phase-6-testing/runbooks/execute-test-cycle.md)
 - Training: [Testing Phase Overview](phase-6-testing/guides/training/testing-phase-overview.md)
+
+---
+
+## Example Project
+
+A complete worked example using **Power Atlas** (GlowPowerRental's power calculation tool) with filled-in artifacts for every phase. Use as a reference when creating your own project artifacts.
+
+**[View Example Project](example-project/)**
