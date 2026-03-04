@@ -31,7 +31,7 @@
 | Document Title | Power Atlas -- Business Requirements Document |
 | Version | 1.2 |
 | Status | Approved |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date Created | 2026-01-12 |
 | Last Updated | 2026-02-20 |
 
@@ -39,18 +39,18 @@
 
 | Version | Date | Author | Description |
 |---------|------|--------|-------------|
-| 0.1 | 2026-01-12 | Hasan Hazime | Initial draft from stakeholder interviews |
-| 0.2 | 2026-01-19 | Hasan Hazime | Added equipment layout and generator database requirements |
-| 1.0 | 2026-01-28 | Hasan Hazime | Incorporated feedback from engineering team review |
-| 1.1 | 2026-02-10 | Hasan Hazime | Added bilingual support and audit trail requirements |
-| 1.2 | 2026-02-20 | Hasan Hazime | Final revisions; approved by sponsor |
+| 0.1 | 2026-01-12 | Hussein Hazime | Initial draft from stakeholder interviews |
+| 0.2 | 2026-01-19 | Hussein Hazime | Added equipment layout and generator database requirements |
+| 1.0 | 2026-01-28 | Hussein Hazime | Incorporated feedback from engineering team review |
+| 1.1 | 2026-02-10 | Hussein Hazime | Added bilingual support and audit trail requirements |
+| 1.2 | 2026-02-20 | Hussein Hazime | Final revisions; approved by sponsor |
 
 ### [x] Approvers
 
 | Name | Role | Signature | Date |
 |------|------|-----------|------|
 | Khalid Al-Rashid | Project Sponsor (VP, Engineering Services) | Approved | 2026-02-18 |
-| Hasan Hazime | Product Owner | Approved | 2026-02-19 |
+| Hussein Hazime | Product Owner | Approved | 2026-02-19 |
 | Omar Farouk | Tech Lead | Approved | 2026-02-20 |
 
 ---
@@ -110,7 +110,7 @@ The expected outcomes are a 60% reduction in calculation errors, a 40% reduction
 | ID | Name | Role | Interest Level | Influence Level | Key Concerns |
 |----|------|------|---------------|-----------------|-------------|
 | STK-001 | Khalid Al-Rashid | VP, Engineering Services (Sponsor) | High | High | Operational efficiency, adoption rate, calculation accuracy |
-| STK-002 | Hasan Hazime | Product Owner / Lead Developer | High | High | Technical feasibility, maintainability, timeline |
+| STK-002 | Hussein Hazime | Product Owner / Lead Developer | High | High | Technical feasibility, maintainability, timeline |
 | STK-003 | Omar Farouk | Senior Power Engineer | High | Medium | Calculation accuracy, formula correctness, usability |
 | STK-004 | Layla Ibrahim | Engineering Team Lead | High | Medium | Standardization, training effort, reporting quality |
 | STK-005 | Ahmed Nasser | Field Engineer | Medium | Low | Mobile responsiveness, offline capability, ease of use |
@@ -215,7 +215,7 @@ Full stakeholder analysis: [Stakeholder Analysis](../phase-1-business-analysis/s
 | Name | Role | Decision (Approve/Reject) | Comments | Date |
 |------|------|--------------------------|----------|------|
 | Khalid Al-Rashid | Project Sponsor | Approve | Proceed with development; review scope at 8-week checkpoint | 2026-02-18 |
-| Hasan Hazime | Product Owner | Approve | All requirements captured accurately | 2026-02-19 |
+| Hussein Hazime | Product Owner | Approve | All requirements captured accurately | 2026-02-19 |
 | Omar Farouk | Tech Lead | Approve | Feasible within constraints; layout builder is highest-risk item | 2026-02-20 |
 
 ---

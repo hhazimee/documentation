@@ -29,7 +29,7 @@
 | Field | Value |
 |-------|-------|
 | Project | Power Atlas |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date | 2026-02-28 |
 | Version | 1.1 |
 
@@ -142,11 +142,11 @@
 
 | Checkpoint | Reviewer | What to Check |
 |-----------|----------|--------------|
-| After requirements baseline | Hasan Hazime | All SWRs have Source (BR) links |
+| After requirements baseline | Hussein Hazime | All SWRs have Source (BR) links |
 | After design review | Omar Farouk | All SWRs have Design Reference |
 | After code complete | Omar Farouk | All SWRs have Code Reference |
 | After test execution | Layla Ibrahim | All SWRs have Test Case ID and Test Result |
-| Before release | Hasan Hazime | All Must Have SWRs show Test Result = Pass |
+| Before release | Hussein Hazime | All Must Have SWRs show Test Result = Pass |
 
 ---
 
