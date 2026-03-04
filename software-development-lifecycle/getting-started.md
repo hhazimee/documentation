@@ -203,114 +203,9 @@ Numbers are assigned sequentially and never reused.
 
 This is the step-by-step path every project follows. Each step links to the runbook you will execute.
 
-```
- PROJECT IDEA
-      │
-      ▼
- ┌─────────────────────────────────────────────────────────┐
- │  KICKOFF                                                │
- │  Complete the Project Kickoff Checklist                  │
- │  → Sponsor identified, team assigned, repo created       │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
- ┌─────────────────────────────────────────────────────────┐
- │  PHASE 1: BUSINESS ANALYSIS                 ~23 days    │
- │                                                          │
- │  Step 1 ─ Conduct Business Needs Analysis     (5 days)  │
- │           → Problem Statement approved by Sponsor        │
- │                        │                                 │
- │  Step 2 ─ Develop Business Case              (10 days)  │
- │           → Business Case approved by Sponsor            │
- │                        │                                 │
- │  Step 3 ─ Identify Stakeholders               (3 days)  │
- │           → Stakeholder Register validated                │
- │                        │                                 │
- │  Step 4 ─ Create Project Charter              (5 days)  │
- │           → Charter signed by Sponsor                    │
- │                                                          │
- │  ── GATE REVIEW ──                                       │
- │  Reviewers: Project Sponsor, Product Owner               │
- │  Decision: Proceed / Conditional / Rework / Stop         │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
- ┌─────────────────────────────────────────────────────────┐
- │  PHASE 2: REQUIREMENTS ENGINEERING          ~25 days    │
- │                                                          │
- │  Step 5 ─ Conduct Stakeholder Analysis        (5 days)  │
- │           → Refined Stakeholder Register + Comms Plan    │
- │                        │                                 │
- │  Step 6 ─ Extract Business Requirements      (15 days)  │
- │           → BRD baselined and approved                   │
- │                        │                                 │
- │  Step 7 ─ Derive Software Requirements        (5 days)  │
- │           → SRS with SWR-XXX requirements                │
- │                        │                                 │
- │  Step 8 ─ Validate & Baseline Requirements              │
- │           → RTM populated, Validation Report, sign-off   │
- │                                                          │
- │  ── GATE REVIEW ──                                       │
- │  Reviewers: Product Owner, BA, Tech Lead, Domain Expert  │
- │  Decision: Proceed / Conditional / Rework / Stop         │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
- ┌─────────────────────────────────────────────────────────┐
- │  PHASE 3: SYSTEM ARCHITECTURE               ~15 days    │
- │                                                          │
- │  Step 9 ─ Create Architecture Description               │
- │           → ADD with all viewpoints (ISO 42010)          │
- │           → PlantUML diagrams: system-context, component,│
- │             sequence, deployment, ERD, state              │
- │           → ADRs for all significant decisions            │
- │                                                          │
- │  ── GATE REVIEW ──                                       │
- │  Reviewers: Tech Lead, Product Owner, QA Lead            │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
- ┌─────────────────────────────────────────────────────────┐
- │  PHASE 4: DESIGN                            ~10 days    │
- │                                                          │
- │  Step 10 ─ Create Detailed Design per component         │
- │            → DDD, API Specs, Data Model, UI Wireframes   │
- │            → PlantUML diagrams: class, API flow,         │
- │              data flow                                   │
- │                                                          │
- │  ── GATE REVIEW ──                                       │
- │  Reviewers: Tech Lead, Developer(s)                      │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
- ┌─────────────────────────────────────────────────────────┐
- │  PHASE 5: DEVELOPMENT                       Variable    │
- │                                                          │
- │  Per feature:                                            │
- │  Step 11 ─ Implement Feature (TDD)                      │
- │            → Source code, unit tests, code review         │
- │            → PR submitted using PR template               │
- │                                                          │
- │  ── GATE REVIEW ──                                       │
- │  Reviewers: Tech Lead, QA Lead                           │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
- ┌─────────────────────────────────────────────────────────┐
- │  PHASE 6: TESTING                           Variable    │
- │                                                          │
- │  Step 12 ─ Execute Test Cycle                           │
- │            → Test Plan, Test Cases, Defect Reports       │
- │            → Test Summary Report                         │
- │            → UAT Sign-Off                                │
- │                                                          │
- │  ── GATE REVIEW ──                                       │
- │  Reviewers: Product Owner, Tech Lead, QA Lead            │
- └──────────────────────┬──────────────────────────────────┘
-                        │
-                        ▼
-                   DEPLOYMENT
-```
+**Project Journey Diagram:** [diagrams/project-journey.puml](diagrams/project-journey.puml)
+
+![Project Journey](diagrams/project-journey.puml)
 
 ### Step-by-Step with Runbook Links
 
@@ -338,16 +233,11 @@ This is the step-by-step path every project follows. Each step links to the runb
 
 ### How Artifacts Flow Between Phases
 
-Each phase produces artifacts that feed into the next:
+Each phase produces artifacts that feed into the next.
 
-```
-Phase 1                Phase 2              Phase 3              Phase 4              Phase 5         Phase 6
-───────                ───────              ───────              ───────              ───────         ───────
-Business Case ───────► BRD ────────────────► ADD ────────────────► DDD ──────────────► Source Code ──► Test Cases
-Project Charter ─────► SRS ────────────────► ADRs ───────────────► API Specs ─────────►               ► Defects
-Stakeholder Register ► RTM (updated at every phase) ─────────────► Data Model ────────►               ► UAT Sign-Off
-                       Validation Report     PlantUML diagrams    PlantUML diagrams
-```
+**Artifact Flow Diagram:** [diagrams/artifact-flow.puml](diagrams/artifact-flow.puml)
+
+![Artifact Flow](diagrams/artifact-flow.puml)
 
 ### For Small Projects (1-2 Developers)
 
