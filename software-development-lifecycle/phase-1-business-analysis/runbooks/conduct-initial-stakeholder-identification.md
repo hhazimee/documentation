@@ -51,9 +51,9 @@
 
 | Action | Owner | SLA |
 |--------|-------|-----|
-| Identify executive stakeholders with decision authority, budget control, or strategic oversight | Business Analyst | 0.5 business days |
+| Identify executive stakeholders with decision authority or strategic oversight | Business Analyst | 0.5 business days |
 
-- [ ] Executive sponsor identified (budget authority)
+- [ ] Executive sponsor identified (decision authority)
 - [ ] C-suite or VP-level stakeholders with strategic interest identified
 - [ ] Department heads whose teams are impacted identified
 - [ ] Governance or steering committee members identified
@@ -71,7 +71,7 @@
 - [ ] Department managers in directly impacted areas identified
 - [ ] Team leads for affected processes or systems identified
 - [ ] IT/Engineering leads for affected technical systems identified
-- [ ] Finance stakeholders for budget and cost tracking identified
+
 - [ ] HR stakeholders identified (if staffing or organizational impact)
 - [ ] Legal/Compliance stakeholders identified (if regulatory impact)
 - [ ] Each department stakeholder recorded with: name, title, department, relevance to project

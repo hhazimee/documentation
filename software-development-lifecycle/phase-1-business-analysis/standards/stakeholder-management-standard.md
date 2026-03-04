@@ -34,7 +34,7 @@
 
 | # | Rule | Applies To | Verification | Violation Response |
 |---|------|-----------|-------------|-------------------|
-| 6 | Internal Executive stakeholders MUST be identified (decision-makers, budget holders, senior leadership) | All projects | [ ] Internal Executive category evaluated | Reject at gate review; return for revision |
+| 6 | Internal Executive stakeholders MUST be identified (decision-makers, senior leadership) | All projects | [ ] Internal Executive category evaluated | Reject at gate review; return for revision |
 | 7 | Internal Operational stakeholders MUST be identified (teams affected by delivery, support staff, operations) | All projects | [ ] Internal Operational category evaluated | Reject at gate review; return for revision |
 | 8 | End User stakeholders MUST be identified (direct users of the system or product) | All projects | [ ] End User category evaluated | Reject at gate review; return for revision |
 | 9 | External Customer stakeholders MUST be identified (paying customers, clients, partners receiving output) | Medium/Large | [ ] External Customer category evaluated or documented as not applicable | Return for revision |

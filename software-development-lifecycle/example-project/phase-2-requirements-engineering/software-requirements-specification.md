@@ -146,7 +146,7 @@ Power Atlas is a new, standalone web application that replaces the existing Exce
 | Deployment | On-premises Linux server; no cloud dependencies |
 | Browser Support | Chrome 90+, Firefox 90+, Safari 15+, Edge 90+ |
 | Database | SQLite -- single-writer concurrency model; sufficient for expected user base |
-| Budget | Internal development team only; no third-party commercial component licenses |
+| Staffing | Internal development team only; no third-party commercial component licenses |
 
 ### [x] 2.5 Assumptions
 

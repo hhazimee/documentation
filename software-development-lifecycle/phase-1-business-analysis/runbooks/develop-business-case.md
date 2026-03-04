@@ -24,8 +24,7 @@
 
 | Condition | Action | Escalate To |
 |-----------|--------|-------------|
-| Cost estimates exceed organizational investment threshold without executive pre-approval | STOP. Escalate to Project Sponsor for executive alignment | Project Sponsor |
-| Benefits cannot be substantiated with available data | STOP. Request additional data or commission feasibility study | Project Sponsor |
+| Business value cannot be substantiated with available data | STOP. Request additional data or commission feasibility study | Project Sponsor |
 | Strategic priorities shift making business need obsolete | STOP. Document change and close business case | Project Sponsor |
 | Regulatory or legal impediment discovered | STOP. Engage Legal/Compliance team and pause until cleared | Project Sponsor |
 
@@ -47,56 +46,26 @@
 > **IF** scope boundaries are disputed among stakeholders **THEN** escalate to Product Owner for resolution within 1 business day
 > **ELSE** proceed with agreed scope boundaries
 
-### Step 2: Estimate Costs
+### Step 2: Assess Business Value
 
 | Action | Owner | SLA |
 |--------|-------|-----|
-| Calculate total cost of ownership including development, infrastructure, and licensing | Business Analyst | 2 business days |
+| Identify and assess qualitative business value across relevant value categories | Business Analyst | 2 business days |
 
-- [ ] Development costs estimated (labor hours x blended rate, by phase)
-- [ ] Infrastructure costs estimated (hosting, compute, storage, networking)
-- [ ] Licensing costs estimated (software, third-party services, subscriptions)
-- [ ] Operational costs estimated (support, maintenance, training)
-- [ ] Contingency buffer applied (minimum 15% for known risks)
-- [ ] Cost estimates reviewed with Tech Lead for technical accuracy
-- [ ] All assumptions documented with sources
+- [ ] Efficiency gains identified (process automation, cycle time reduction, resource optimization)
+- [ ] Risk reduction benefits identified (compliance, security, operational stability)
+- [ ] Productivity improvements identified (team capacity, quality improvement, knowledge access)
+- [ ] Compliance benefits identified where applicable (regulatory alignment, audit readiness)
+- [ ] User experience improvements identified where applicable (usability, accessibility, self-service)
+- [ ] Impact level assigned per value area (High / Medium / Low)
+- [ ] Current state and expected improvement documented per value area
+- [ ] Value realization timeline defined (when value begins, ramp period, steady state)
+- [ ] All assumptions documented with confidence levels
 
-> **IF** Tech Lead unavailable for cost review **THEN** flag technical estimates as unvalidated and escalate to Product Owner
-> **ELSE** proceed with validated cost estimates
+> **IF** no meaningful value areas can be identified **THEN** recommend no-go and escalate to Project Sponsor
+> **ELSE** proceed with documented business value assessment
 
-### Step 3: Estimate Benefits
-
-| Action | Owner | SLA |
-|--------|-------|-----|
-| Quantify expected benefits across revenue, cost savings, and efficiency dimensions | Business Analyst | 2 business days |
-
-- [ ] Revenue benefits estimated (new revenue streams, increased conversion, upsell)
-- [ ] Cost savings estimated (reduced manual effort, eliminated redundancy, lower error rates)
-- [ ] Efficiency gains estimated (cycle time reduction, throughput increase, FTE reallocation)
-- [ ] Intangible benefits documented (brand, compliance, customer satisfaction, employee morale)
-- [ ] Benefit realization timeline defined (when benefits begin, ramp period, steady state)
-- [ ] All estimates documented with assumptions and confidence levels
-
-> **IF** benefits are primarily intangible **THEN** apply proxy metrics and document valuation methodology
-> **ELSE** use direct financial quantification
-
-### Step 4: Perform Cost-Benefit Analysis
-
-| Action | Owner | SLA |
-|--------|-------|-----|
-| Calculate financial metrics comparing costs against benefits over the investment horizon | Business Analyst | 1 business day |
-
-- [ ] Net Present Value (NPV) calculated (minimum 3-year horizon)
-- [ ] Return on Investment (ROI) calculated
-- [ ] Payback period determined
-- [ ] Break-even point identified
-- [ ] Sensitivity analysis performed (best case, expected case, worst case)
-- [ ] Financial model documented and reproducible
-
-> **IF** NPV is negative under expected case **THEN** document strategic justification or recommend no-go and escalate to Project Sponsor
-> **ELSE** proceed with positive financial justification
-
-### Step 5: Assess Risks
+### Step 3: Assess Risks
 
 | Action | Owner | SLA |
 |--------|-------|-----|
@@ -104,7 +73,7 @@
 
 - [ ] Technical risks identified (technology maturity, integration complexity, skill gaps)
 - [ ] Business risks identified (market change, regulatory change, stakeholder turnover)
-- [ ] Financial risks identified (cost overrun, benefit shortfall, funding withdrawal)
+- [ ] Delivery risks identified (timeline overrun, scope expansion, resource turnover)
 - [ ] Operational risks identified (adoption, change management, support capacity)
 - [ ] Each risk scored by probability (High/Medium/Low) and impact (High/Medium/Low)
 - [ ] Mitigation strategies defined for High and Critical risks
@@ -113,7 +82,7 @@
 > **IF** any risk scores as High probability AND High impact **THEN** escalate to Project Sponsor before proceeding
 > **ELSE** document risk register and proceed
 
-### Step 6: Define Success Metrics and KPIs
+### Step 4: Define Success Metrics and KPIs
 
 | Action | Owner | SLA |
 |--------|-------|-----|
@@ -129,7 +98,7 @@
 > **IF** baseline data unavailable for any KPI **THEN** define baseline measurement plan and timeline
 > **ELSE** document current baselines with data source
 
-### Step 7: Draft Business Case Document
+### Step 5: Draft Business Case Document
 
 | Action | Owner | SLA |
 |--------|-------|-----|
@@ -138,9 +107,7 @@
 - [ ] Executive summary drafted (max 1 page)
 - [ ] Problem statement included from RB-P1-001
 - [ ] Scope boundaries documented
-- [ ] Cost estimates documented with assumptions
-- [ ] Benefit estimates documented with assumptions
-- [ ] Cost-benefit analysis results included
+- [ ] Business value assessment documented with assumptions
 - [ ] Risk assessment included
 - [ ] Success metrics and KPIs included
 - [ ] Recommendation stated (Proceed / Proceed with conditions / Do not proceed)
@@ -149,7 +116,7 @@
 > **IF** business case recommends "Do not proceed" **THEN** document rationale and present to Project Sponsor for final decision
 > **ELSE** proceed to stakeholder review
 
-### Step 8: Review with Stakeholders
+### Step 6: Review with Stakeholders
 
 | Action | Owner | SLA |
 |--------|-------|-----|
@@ -162,17 +129,17 @@
 - [ ] Revisions applied to business case based on feedback
 - [ ] Change log updated with revision summary
 
-> **IF** stakeholder feedback introduces material changes to cost or benefit estimates **THEN** re-execute Steps 2-4 as needed
+> **IF** stakeholder feedback introduces material changes to value assessment **THEN** re-execute Step 2 as needed
 > **ELSE** incorporate feedback and proceed to sponsor approval
 
-### Step 9: Obtain Sponsor Approval
+### Step 7: Obtain Sponsor Approval
 
 | Action | Owner | SLA |
 |--------|-------|-----|
 | Present final business case to Project Sponsor for formal approval decision | Business Analyst | 1 business day |
 
 - [ ] Approval meeting scheduled with Project Sponsor
-- [ ] Business case presented with executive summary, financials, and recommendation
+- [ ] Business case presented with executive summary, business value assessment, and recommendation
 - [ ] Questions and concerns addressed
 - [ ] Sponsor decision recorded (Approved / Approved with conditions / Rejected / Deferred)
 - [ ] Approval signature or formal written confirmation obtained
@@ -188,7 +155,7 @@
 ## EXIT CRITERIA
 
 - [ ] Business case document completed per template
-- [ ] Cost-benefit analysis completed with documented assumptions
+- [ ] Business value assessment completed with documented assumptions
 - [ ] Risk assessment completed with mitigation strategies for high risks
 - [ ] Success metrics and KPIs defined with baselines and targets
 - [ ] Business case approved by Project Sponsor (signature or written confirmation)
@@ -202,7 +169,7 @@
 | Artifact | Template | Storage |
 |----------|----------|---------|
 | Business Case Document | [Business Case Template](../templates/business-case-template.md) | `project-repo/phase-1/business-case/` |
-| Cost-Benefit Analysis | [Cost-Benefit Analysis Template](../templates/cost-benefit-analysis-template.md) | `project-repo/phase-1/business-case/` |
+| Business Value Assessment | [Business Value Assessment Reference](../references/business-value-assessment-reference.md) | `project-repo/phase-1/business-case/` |
 | Risk Register | [Risk Register Template](../templates/risk-register-template.md) | `project-repo/phase-1/risk-register/` |
 | KPI Definition Sheet | [KPI Template](../templates/kpi-definition-template.md) | `project-repo/phase-1/kpis/` |
 

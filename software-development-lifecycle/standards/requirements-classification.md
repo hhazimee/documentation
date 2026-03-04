@@ -48,7 +48,7 @@
 | 12 | Every requirement assigned MoSCoW priority: Must Have (M), Should Have (S), Could Have (C), or Won't Have (W) | All requirements | [ ] Audit priority attribute on every requirement | Requirement blocked from Approved status |
 | 13 | Must Have: essential for release viability; cannot be descoped | M-priority requirements | [ ] Verify business criticality justification | Priority reassessed by Product Owner |
 | 14 | Should Have: important but deferrable with Product Owner approval | S-priority requirements | [ ] Verify deferral conditions documented | Priority reassessed by Product Owner |
-| 15 | Could Have: included only if time and budget allow | C-priority requirements | [ ] Verify no hard dependency on this requirement | Priority reassessed by Product Owner |
+| 15 | Could Have: included only if time and capacity allow | C-priority requirements | [ ] Verify no hard dependency on this requirement | Priority reassessed by Product Owner |
 | 16 | Won't Have: explicitly excluded; documented to prevent scope creep | W-priority requirements | [ ] Verify exclusion documented in backlog | Scope creep risk flagged |
 | 17 | Distribution guideline: approximately 60% Must Have, 20% Should Have, 20% Could Have | Release scope | [ ] Calculate MoSCoW distribution at baseline | Imbalance flagged to Product Owner for review |
 

@@ -109,7 +109,7 @@ The expected outcomes are a 60% reduction in calculation errors, a 40% reduction
 
 | ID | Name | Role | Interest Level | Influence Level | Key Concerns |
 |----|------|------|---------------|-----------------|-------------|
-| STK-001 | Khalid Al-Rashid | VP, Engineering Services (Sponsor) | High | High | ROI, adoption rate, calculation accuracy |
+| STK-001 | Khalid Al-Rashid | VP, Engineering Services (Sponsor) | High | High | Operational efficiency, adoption rate, calculation accuracy |
 | STK-002 | Hasan Hazime | Product Owner / Lead Developer | High | High | Technical feasibility, maintainability, timeline |
 | STK-003 | Omar Farouk | Senior Power Engineer | High | Medium | Calculation accuracy, formula correctness, usability |
 | STK-004 | Layla Ibrahim | Engineering Team Lead | High | Medium | Standardization, training effort, reporting quality |
@@ -174,7 +174,7 @@ Full stakeholder analysis: [Stakeholder Analysis](../phase-1-business-analysis/s
 
 | ID | Constraint | Type | Impact |
 |----|-----------|------|--------|
-| CON-001 | Budget capped at internal development cost (3 developers, 4 months) | Budget | Limits scope to core features; advanced features deferred to later releases |
+| CON-001 | Internal development team only (3 developers, 4 months) | Staffing | Limits scope to core features; advanced features deferred to later releases |
 | CON-002 | Must use Python/Flask backend to align with team expertise | Technical | Constrains technology choices but leverages existing skills |
 | CON-003 | Must deploy on existing on-premises server (no cloud services) | Technical | Limits scalability options; must optimize for available hardware |
 | CON-004 | Must support Arabic RTL layout from initial release | Technical | Increases frontend development effort by approximately 25% |

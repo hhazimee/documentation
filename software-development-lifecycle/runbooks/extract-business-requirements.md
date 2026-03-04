@@ -38,7 +38,7 @@
 | Action | Owner | SLA |
 |--------|-------|-----|
 | Read the business case; identify stated objectives, scope, and constraints | Business Analyst | 0.5 day |
-| Read the project charter; note success criteria, budget, and timeline | Business Analyst | 0.5 day |
+| Read the project charter; note success criteria and timeline | Business Analyst | 0.5 day |
 | List all business objectives for requirement mapping | Business Analyst | 0.5 day |
 
 - [ ] Business case reviewed
@@ -78,7 +78,7 @@
 
 - [ ] Current State questions covered (process, tools, strengths, pain points)
 - [ ] Future State questions covered (ideal process, missing capabilities, information gaps)
-- [ ] Constraints questions covered (regulatory, timeline, budget)
+- [ ] Constraints questions covered (regulatory, timeline, staffing)
 - [ ] Priority questions covered (top change, impact of non-delivery)
 - [ ] All responses recorded and attributed
 

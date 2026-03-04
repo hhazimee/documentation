@@ -33,10 +33,10 @@ Accepted
 ### [x] Context
 
 - Power Atlas needs to serve power engineers, admins, and clients with a web application that includes a REST API, static frontend, PDF generation service, and a database.
-- The infrastructure budget is capped at $50/month, which affords a single DigitalOcean droplet (4 vCPU, 8 GB RAM).
+- The infrastructure is constrained to a single DigitalOcean droplet (4 vCPU, 8 GB RAM), per company standard for internal tools.
 - The development team consists of 1-2 developers who also handle operations.
 - Projected user base is under 100 concurrent users (internal tool for GlowPowerRental staff and their clients).
-- Requirements: SWR-NFR-A001 (99.5% uptime), AC-001 (single droplet), AC-002 (small team), AC-004 (budget constraint).
+- Requirements: SWR-NFR-A001 (99.5% uptime), AC-001 (single droplet), AC-002 (small team), AC-004 (infrastructure constraint).
 
 ### [x] Decision
 
@@ -49,7 +49,7 @@ We will deploy Power Atlas as a monolithic application on a single DigitalOcean 
 - Minimal operational complexity: one server to monitor, update, and back up
 - No inter-service network latency; all communication is localhost or in-process
 - Single deployment target simplifies CI/CD to a simple SSH + git pull + restart
-- Infrastructure cost stays under $20/month for the droplet
+- Minimal infrastructure footprint: single droplet with low operational overhead
 
 #### [x] Negative
 
@@ -68,8 +68,8 @@ We will deploy Power Atlas as a monolithic application on a single DigitalOcean 
 
 - **Description:** Separate services for auth, projects, PDF generation, each in its own container, orchestrated by Kubernetes
 - **Pros:** Independent scaling, fault isolation, technology diversity per service
-- **Cons:** Minimum $60/month for managed K8s + node pools; massive operational overhead for 1-2 developers; overkill for < 100 users
-- **Why rejected:** Exceeds budget, team cannot maintain Kubernetes infrastructure, application complexity does not warrant service decomposition
+- **Cons:** Significant operational overhead for 1-2 developers; managed K8s + node pools far exceeds infrastructure needs; overkill for < 100 users
+- **Why rejected:** Exceeds infrastructure constraints, team cannot maintain Kubernetes infrastructure, application complexity does not warrant service decomposition
 
 #### [x] Docker Compose on Single Server
 

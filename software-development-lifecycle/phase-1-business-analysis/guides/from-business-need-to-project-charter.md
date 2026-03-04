@@ -23,7 +23,7 @@
 - [ ] Problem statement derived from the validated business need
 - [ ] Statement answers: Who? What? When? Where? How large?
 - [ ] No solution language present in the statement
-- [ ] Impact quantified (financial, operational, reputational, or regulatory)
+- [ ] Impact quantified (operational, reputational, or regulatory)
 - [ ] Current-state baseline documented or planned
 - [ ] Statement reviewed and accepted by sponsor
 
@@ -33,12 +33,10 @@
 
 - [ ] Business case references the approved problem statement
 - [ ] At least three options analyzed (including "do nothing")
-- [ ] Cost-benefit analysis completed for each option
-- [ ] Total Cost of Ownership calculated (3-5 year horizon)
 - [ ] Risk assessment completed for each option
 - [ ] Success metrics defined with measurable targets
 - [ ] Recommended option clearly stated with justification
-- [ ] Business case reviewed by finance and technical stakeholders
+- [ ] Business case reviewed by technical stakeholders
 
 ---
 
@@ -48,7 +46,6 @@
 - [ ] Project objectives trace back to business need
 - [ ] Scope boundary defined (in-scope and out-of-scope)
 - [ ] High-level milestones and timeline documented
-- [ ] Budget envelope established from business case estimates
 - [ ] Project sponsor and key stakeholders named
 - [ ] Authority and escalation paths defined
 - [ ] Success criteria carried forward from business case
@@ -62,7 +59,7 @@
 |------|----|---------------|-------------------|
 | Business Need | Problem Statement | Need validated; sponsor confirmed; strategic alignment verified | Business Owner |
 | Problem Statement | Business Case | Problem accepted; stakeholders mapped; baseline captured | Project Sponsor |
-| Business Case | Project Charter | Business case approved; funding authorized; option selected | Governance Board / Sponsor |
+| Business Case | Project Charter | Business case approved; option selected | Governance Board / Sponsor |
 
 ---
 
@@ -72,8 +69,8 @@
 |-------|-----------|-------------|-----------|
 | Business Need | Strategic plan, incident reports, user feedback, regulatory changes | Validated business need statement | Business Need Register entry |
 | Problem Statement | Validated business need, stakeholder interviews, current-state data | Approved problem statement with quantified impact | Problem Statement Document |
-| Business Case | Problem statement, market analysis, cost estimates, risk data | Evaluated options with recommendation | Business Case Document |
-| Project Charter | Approved business case, resource availability, governance requirements | Authorized project with defined scope and budget | Project Charter Document |
+| Business Case | Problem statement, market analysis, risk data | Evaluated options with recommendation | Business Case Document |
+| Project Charter | Approved business case, resource availability, governance requirements | Authorized project with defined scope | Project Charter Document |
 
 ---
 
@@ -83,7 +80,6 @@
 |---------|------------|--------------------|
 | Sponsor not identified | Trace business need to accountable business unit; request sponsor nomination | No sponsor after 5 business days |
 | Stakeholders disagree on problem | Facilitate alignment workshop; document consensus and dissent | No alignment after two workshops |
-| Financial data unavailable for business case | Engage finance team; use analogous estimates with documented assumptions | Finance team unresponsive after 5 business days |
 | Governance board not scheduled | Request ad-hoc review or delegate approval per governance policy | Charter approval delayed beyond 10 business days |
 
 ---

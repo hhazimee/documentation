@@ -54,7 +54,7 @@
 
 | Stakeholder Group | Method | Frequency | Content | Owner |
 |-------------------|--------|-----------|---------|-------|
-| Manage Closely (High Power / High Interest) | _[1:1 Meeting / Steering Committee]_ | _[Weekly / Bi-weekly]_ | _[Detailed status, decisions, risks, budget]_ | _[Name]_ |
+| Manage Closely (High Power / High Interest) | _[1:1 Meeting / Steering Committee]_ | _[Weekly / Bi-weekly]_ | _[Detailed status, decisions, risks]_ | _[Name]_ |
 | Keep Satisfied (High Power / Low Interest) | _[Executive Summary / Email]_ | _[Bi-weekly / Monthly]_ | _[High-level status, milestone progress, escalations]_ | _[Name]_ |
 | Keep Informed (Low Power / High Interest) | _[Status Report / Newsletter]_ | _[Weekly / Bi-weekly]_ | _[Progress updates, upcoming changes, impact assessment]_ | _[Name]_ |
 | Monitor (Low Power / Low Interest) | _[Email / Dashboard]_ | _[Monthly / As needed]_ | _[Major milestones, project-wide announcements]_ | _[Name]_ |

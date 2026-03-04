@@ -52,7 +52,7 @@
 | Perform preliminary evaluation of business request for viability and alignment | Business Analyst | 1 business day |
 
 - [ ] Strategic alignment with organizational goals assessed
-- [ ] Preliminary feasibility determined (technical, financial, operational)
+- [ ] Preliminary feasibility determined (technical, operational)
 - [ ] Duplicate or overlapping initiatives checked
 - [ ] Initial priority classification assigned (Critical / High / Medium / Low)
 
@@ -91,10 +91,10 @@
 
 | Action | Owner | SLA |
 |--------|-------|-----|
-| Calculate financial and operational impact of addressing (or not addressing) the business need | Business Analyst | 1 business day |
+| Calculate operational impact of addressing (or not addressing) the business need | Business Analyst | 1 business day |
 
-- [ ] Cost impact quantified (current cost of problem, cost of inaction)
-- [ ] Revenue impact estimated (new revenue, protected revenue, revenue at risk)
+
+
 - [ ] Risk exposure assessed (operational, reputational, regulatory, security)
 - [ ] Efficiency gains or losses estimated (FTE hours, cycle time, throughput)
 - [ ] All estimates documented with assumptions and data sources

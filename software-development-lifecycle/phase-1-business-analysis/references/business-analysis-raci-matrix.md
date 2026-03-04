@@ -26,7 +26,6 @@
 | Business needs identification | C | A | R | C | -- | -- | R | C |
 | Problem statement definition | I | A | R | C | -- | -- | C | -- |
 | Business case development | A | C | R | C | -- | -- | C | C |
-| Cost-benefit analysis | A | C | R | C | -- | -- | -- | C |
 | Risk assessment | C | C | R | R | -- | C | C | R |
 | Project charter creation | A | R | R | C | -- | -- | -- | I |
 | Stakeholder identification | I | A | R | C | -- | -- | C | C |
@@ -41,12 +40,12 @@
 |------|-----------|
 | Project Sponsor | Approves business case and project charter. Resolves escalations. Final authority on project go/no-go. |
 | Product Owner | Defines business priorities. Validates problem statement. Co-authors project charter. Decides project scale. |
-| Business Analyst | Conducts needs analysis. Authors business case and CBA. Identifies stakeholders. Facilitates gate review preparation. |
+| Business Analyst | Conducts needs analysis. Authors business case. Identifies stakeholders. Facilitates gate review preparation. |
 | Tech Lead | Provides technical feasibility input. Assesses technical risks. Advises on project scale from technical perspective. |
 | Developer | Informed of Phase 1 outcomes. No active Phase 1 role. |
 | QA Lead | Consulted on risk assessment (testability, quality risks). Informed of Phase 1 outcomes. |
 | Domain Expert | Provides subject matter knowledge during needs identification and problem definition. |
-| Operations Lead | Provides operational impact input. Consulted on operational costs, risks, and infrastructure implications. |
+| Operations Lead | Provides operational impact input. Consulted on operational risks and infrastructure implications. |
 
 ---
 
@@ -68,13 +67,6 @@ ELSE IF activity involves problem statement or business case authoring
         THEN Project Sponsor is A
     ELSE IF problem statement
         THEN Product Owner is A
-
-ELSE IF activity involves cost-benefit or financial analysis
-    THEN Business Analyst is R, Project Sponsor is A
-    IF infrastructure costs are relevant
-        THEN Operations Lead is C
-    IF technical effort estimation is needed
-        THEN Tech Lead is C
 
 ELSE IF activity involves risk assessment
     THEN Business Analyst is R, Tech Lead is R
@@ -106,7 +98,7 @@ ELSE IF activity involves gate review
 IF disagreement on business need validity or priority
     THEN escalate to Product Owner (A for needs identification)
 
-IF disagreement on business case justification or financial analysis
+IF disagreement on business case justification
     THEN escalate to Project Sponsor (A for business case)
 
 IF disagreement on technical feasibility or technical risk assessment
@@ -137,7 +129,7 @@ IF any role is unavailable for >3 business days
 | Project Charter Creation | Runbook | ../runbooks/create-project-charter.md |
 | Initial Stakeholder Identification | Runbook | ../runbooks/conduct-initial-stakeholder-identification.md |
 | Business Analysis Artifacts Checklist | Reference | ./business-analysis-artifacts-checklist.md |
-| Cost-Benefit Analysis Reference | Reference | ./cost-benefit-analysis-reference.md |
+| Business Value Assessment Reference | Reference | ./business-value-assessment-reference.md |
 | RACI Matrix -- Requirements Engineering | Reference | ../../references/raci-matrix.md |
 | SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Phase 1 Standards | Standard | ../standards/phase-1-standards.md |

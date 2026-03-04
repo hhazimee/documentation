@@ -4,7 +4,7 @@
 
 **Project:** Power Atlas -- Web-based power calculation and project management tool for GlowPowerRental electrical engineers and clients.
 
-**Project Scale:** Medium (4 developers, 6 months, $150K budget)
+**Project Scale:** Medium (4 developers, 6 months)
 
 ---
 

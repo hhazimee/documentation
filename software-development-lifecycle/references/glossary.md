@@ -20,7 +20,7 @@
 | Change Request | A formal proposal to modify a baselined requirement. Assigned ID CR-XXX and processed through impact analysis and CCB review. | ISO 12207 |
 | Decomposition | The process of breaking higher-level requirements into more detailed lower-level requirements (BR to STK to SYS to SWR). | ISO 29148 |
 | Elicitation | The process of discovering requirements from stakeholders through interviews, workshops, observation, and other techniques. | ISO 29148, Clause 5 |
-| Feasibility | Whether a requirement can be implemented within known technical, budget, and schedule constraints. | ISO 29148 |
+| Feasibility | Whether a requirement can be implemented within known technical and schedule constraints. | ISO 29148 |
 | Functional Requirement | A requirement that specifies what the system must do (behavior, features, operations). | ISO 29148, Clause 7 |
 | MoSCoW | A prioritization method: Must Have, Should Have, Could Have, Won't Have. | -- |
 | Non-Functional Requirement (NFR) | A requirement that specifies how the system must perform (quality attributes: performance, security, usability, reliability, scalability, maintainability, compliance). | ISO 29148, Clause 7 |

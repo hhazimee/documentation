@@ -75,7 +75,7 @@ R        +--------------------+--------------------+
 | Stakeholder Group | Communication Method | Frequency | Content | Owner | Notes |
 |-------------------|---------------------|-----------|---------|-------|-------|
 | Manage Closely | 1:1 Meeting | Weekly | Status, risks, decisions | [Name] | |
-| Keep Satisfied | Executive Summary | Monthly | Key milestones, budget | [Name] | |
+| Keep Satisfied | Executive Summary | Monthly | Key milestones, status | [Name] | |
 | Keep Informed | Status Report / Email | Bi-weekly | Progress, upcoming changes | [Name] | |
 | Monitor | Newsletter / Announcement | Quarterly | Major milestones only | [Name] | |
 

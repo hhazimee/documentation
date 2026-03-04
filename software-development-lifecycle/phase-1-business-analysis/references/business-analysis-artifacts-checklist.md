@@ -12,11 +12,11 @@
 
 | Artifact | Description | Owner | Format | Required | Approval Authority |
 |----------|-------------|-------|--------|----------|--------------------|
-| Business Case | Justification for the project including problem, proposed solution, cost-benefit analysis, and strategic alignment | Business Analyst | Document (Markdown/PDF) | Yes | Project Sponsor |
-| Project Charter | Formal authorization defining scope, objectives, constraints, assumptions, high-level timeline, and budget | Product Owner | Document (Markdown/PDF) | Yes | Project Sponsor |
+| Business Case | Justification for the project including problem, proposed solution, business value assessment, and strategic alignment | Business Analyst | Document (Markdown/PDF) | Yes | Project Sponsor |
+| Project Charter | Formal authorization defining scope, objectives, constraints, assumptions, and high-level timeline | Product Owner | Document (Markdown/PDF) | Yes | Project Sponsor |
 | Stakeholder Register | Catalog of all identified stakeholders with roles, influence, interest, communication preferences, and engagement strategy | Business Analyst | Spreadsheet/Table | Yes | Product Owner |
 | Problem Statement | Concise description of the business problem: who is affected, what the problem is, and the measurable impact | Business Analyst | Document (Markdown/PDF) | Yes | Product Owner |
-| Cost-Benefit Analysis | Detailed financial analysis including cost categories, benefit categories, ROI calculation, payback period, and NPV | Business Analyst | Spreadsheet/Document | Conditional (see decision tree) | Project Sponsor |
+| Business Value Assessment | Qualitative impact analysis including value categories, impact levels, efficiency metrics, and value realization timeline | Business Analyst | Document (Markdown/PDF) | Conditional (see decision tree) | Project Sponsor |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Artifact | Required Sections | Minimum Length | Review Cycle |
 |----------|-------------------|----------------|--------------|
-| Business Case | Problem Statement, Proposed Solution, Strategic Alignment, Cost-Benefit Summary, Risk Summary, Recommendation | 3-5 pages | 1 review before gate |
-| Project Charter | Purpose, Scope, Objectives, Constraints, Assumptions, Stakeholders, High-Level Timeline, Budget, Approval Signatures | 2-3 pages | 1 review before gate |
+| Business Case | Problem Statement, Proposed Solution, Strategic Alignment, Business Value Assessment, Risk Summary, Recommendation | 3-5 pages | 1 review before gate |
+| Project Charter | Purpose, Scope, Objectives, Constraints, Assumptions, Stakeholders, High-Level Timeline, Approval Signatures | 2-3 pages | 1 review before gate |
 | Stakeholder Register | Name, Role, Organization, Influence (H/M/L), Interest (H/M/L), Communication Preference, Engagement Level | 1 entry per stakeholder | Updated continuously |
 | Problem Statement | Who, What Problem, What Impact, Current State, Desired State, Measurable Gap | 0.5-1 page | 1 review by Product Owner |
-| Cost-Benefit Analysis | Cost Categories, Benefit Categories, ROI Calculation, Payback Period, NPV (if applicable), Assumptions | 2-4 pages | 1 review before gate |
+| Business Value Assessment | Value Categories, Impact Assessment, Efficiency Metrics, Value Realization Timeline (if applicable), Assumptions | 2-4 pages | 1 review before gate |
 
 ---
 
@@ -38,7 +38,7 @@
 - [ ] Problem statement included and validated
 - [ ] Proposed solution(s) described with rationale
 - [ ] Strategic alignment to organizational goals documented
-- [ ] Cost-benefit summary included (or cross-referenced to standalone CBA)
+- [ ] Business value assessment included (or cross-referenced to standalone assessment)
 - [ ] Key risks identified with preliminary mitigation
 - [ ] Recommendation stated with supporting evidence
 - [ ] Project Sponsor approval obtained
@@ -49,7 +49,6 @@
 - [ ] SMART objectives defined
 - [ ] Constraints and assumptions documented
 - [ ] High-level timeline with milestones established
-- [ ] Budget estimate included
 - [ ] Key stakeholders listed
 - [ ] Project Sponsor signature obtained
 
@@ -67,14 +66,13 @@
 - [ ] Measurable gap between current and desired state defined
 - [ ] Reviewed and confirmed by Product Owner
 
-### Cost-Benefit Analysis
-- [ ] All cost categories identified and estimated
-- [ ] All benefit categories identified and estimated
-- [ ] ROI calculated with documented formula
-- [ ] Payback period calculated
-- [ ] NPV calculated (large projects only)
+### Business Value Assessment
+- [ ] At least two value categories assessed (efficiency gains, risk reduction, productivity, compliance, user experience)
+- [ ] Impact levels assigned per value area (High / Medium / Low)
+- [ ] Current state and expected improvement documented per value area
+- [ ] Efficiency metrics documented where applicable
+- [ ] Value realization timeline defined (medium/large projects)
 - [ ] All assumptions documented
-- [ ] Sensitivity analysis performed (large projects only)
 - [ ] Project Sponsor approval obtained
 
 ### Phase 1 Gate Readiness
@@ -97,7 +95,7 @@ IF project scale is SMALL (1-2 developers)
         - Project Charter: YES (streamlined format, 1 page)
         - Stakeholder Register: YES (simplified, key stakeholders only)
         - Problem Statement: YES (included in Business Case, not standalone)
-        - Cost-Benefit Analysis: NO (summary in Business Case is sufficient)
+        - Business Value Assessment: NO (summary in Business Case is sufficient)
 
 ELSE IF project scale is MEDIUM (3-5 developers)
     THEN required artifacts:
@@ -105,7 +103,7 @@ ELSE IF project scale is MEDIUM (3-5 developers)
         - Project Charter: YES (full format)
         - Stakeholder Register: YES (full format)
         - Problem Statement: YES (standalone document)
-        - Cost-Benefit Analysis: YES (standard depth, ROI + payback period)
+        - Business Value Assessment: YES (standard depth)
 
 ELSE IF project scale is LARGE (6+ developers)
     THEN required artifacts:
@@ -113,7 +111,7 @@ ELSE IF project scale is LARGE (6+ developers)
         - Project Charter: YES (full format)
         - Stakeholder Register: YES (full format with engagement plan)
         - Problem Statement: YES (standalone document)
-        - Cost-Benefit Analysis: YES (full depth, ROI + payback period + NPV + sensitivity analysis)
+        - Business Value Assessment: YES (full depth with comprehensive impact analysis)
 ```
 
 ### Is the Phase 1 Gate Ready?
@@ -137,7 +135,7 @@ ELSE
 | Business Case Development | Runbook | ../runbooks/develop-business-case.md |
 | Project Charter Creation | Runbook | ../runbooks/create-project-charter.md |
 | Initial Stakeholder Identification | Runbook | ../runbooks/conduct-initial-stakeholder-identification.md |
-| Cost-Benefit Analysis Reference | Reference | ./cost-benefit-analysis-reference.md |
+| Business Value Assessment Reference | Reference | ./business-value-assessment-reference.md |
 | Business Analysis RACI Matrix | Reference | ./business-analysis-raci-matrix.md |
 | SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Phase 1 Standards | Standard | ../standards/phase-1-standards.md |

@@ -69,7 +69,7 @@
 |--------|-------|-----|
 | Document all known constraints that limit project execution options | Business Analyst | 1 business day |
 
-- [ ] Budget constraints documented (total budget, phased allocation, funding source)
+
 - [ ] Timeline constraints documented (hard deadlines, regulatory dates, market windows)
 - [ ] Technology constraints documented (platform mandates, integration requirements, legacy dependencies)
 - [ ] Regulatory constraints documented (compliance requirements, data residency, audit obligations)

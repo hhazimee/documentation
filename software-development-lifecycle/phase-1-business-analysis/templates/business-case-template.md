@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Template ID** | TPL-P1-001 |
-| **When to Use** | To justify a proposed project by documenting costs, benefits, risks, and alternatives for stakeholder approval |
+| **When to Use** | To justify a proposed project by documenting business value, risks, and alternatives for stakeholder approval |
 | **Owner** | Business Analyst |
 | **Reviewer** | Product Owner |
 | **Approver** | Project Sponsor |
@@ -15,7 +15,7 @@
 
 ## SCALING GATE
 
-> **IF** small project (1-2 devs) **THEN** Executive Summary, Problem/Opportunity Statement, Proposed Solution, Cost-Benefit Summary, Recommendation, Approval required only
+> **IF** small project (1-2 devs) **THEN** Executive Summary, Problem/Opportunity Statement, Proposed Solution, Business Value, Recommendation, Approval required only
 > **IF** medium project (3-5 devs) **THEN** All sections except Alternatives Considered
 > **IF** large project (6+ devs) **THEN** Full template required
 
@@ -76,91 +76,35 @@
 
 ---
 
-### [ ] Cost Estimate
-
-**Development Costs:**
-
-| Category | Description | Estimate |
-|----------|-------------|----------|
-| Internal Labor | _[FTEs, hours, rate]_ | _[$X]_ |
-| External Labor | _[Contractors, vendors]_ | _[$X]_ |
-| Training | _[Team upskilling]_ | _[$X]_ |
-| **Development Subtotal** | | **_[$X]_** |
-
-**Infrastructure Costs:**
-
-| Category | Description | Estimate |
-|----------|-------------|----------|
-| Cloud/Hosting | _[Compute, storage, network]_ | _[$X/month]_ |
-| Environments | _[Dev, staging, prod]_ | _[$X/month]_ |
-| Tools/Services | _[CI/CD, monitoring, etc.]_ | _[$X/month]_ |
-| **Infrastructure Subtotal** | | **_[$X/month]_** |
-
-**Licensing Costs:**
-
-| Category | Description | Estimate |
-|----------|-------------|----------|
-| Software Licenses | _[Third-party software]_ | _[$X/year]_ |
-| API/Service Fees | _[External APIs, SaaS]_ | _[$X/year]_ |
-| **Licensing Subtotal** | | **_[$X/year]_** |
-
-**Ongoing Costs (Annual):**
-
-| Category | Description | Estimate |
-|----------|-------------|----------|
-| Maintenance | _[Bug fixes, patches]_ | _[$X/year]_ |
-| Support | _[L1/L2/L3 support]_ | _[$X/year]_ |
-| Operations | _[Monitoring, incident response]_ | _[$X/year]_ |
-| **Ongoing Subtotal** | | **_[$X/year]_** |
-
-| **Total One-Time Cost** | **_[$X]_** |
-|--------------------------|-----------|
-| **Total Annual Recurring Cost** | **_[$X/year]_** |
-
----
-
-### [ ] Benefit Analysis
-
-**Revenue Impact:**
-
-| Benefit | Description | Estimated Value | Timeframe |
-|---------|-------------|-----------------|-----------|
-| _[Benefit]_ | _[How it drives revenue]_ | _[$X/year]_ | _[When realized]_ |
-| _[Benefit]_ | _[How it drives revenue]_ | _[$X/year]_ | _[When realized]_ |
-
-**Cost Savings:**
-
-| Benefit | Description | Estimated Value | Timeframe |
-|---------|-------------|-----------------|-----------|
-| _[Benefit]_ | _[What cost is reduced]_ | _[$X/year]_ | _[When realized]_ |
-| _[Benefit]_ | _[What cost is reduced]_ | _[$X/year]_ | _[When realized]_ |
+### [ ] Business Value
 
 **Efficiency Gains:**
 
-| Benefit | Description | Estimated Value | Timeframe |
-|---------|-------------|-----------------|-----------|
-| _[Benefit]_ | _[What process is improved]_ | _[Hours saved / % improvement]_ | _[When realized]_ |
-| _[Benefit]_ | _[What process is improved]_ | _[Hours saved / % improvement]_ | _[When realized]_ |
+| # | Area | Current State | Expected Improvement | Timeframe |
+|---|------|---------------|----------------------|-----------|
+| 1 | _[Process / workflow]_ | _[Current pain point or bottleneck]_ | _[Expected improvement: time saved, steps eliminated, throughput increase]_ | _[When realized]_ |
+| 2 | _[Process / workflow]_ | _[Current pain point or bottleneck]_ | _[Expected improvement: time saved, steps eliminated, throughput increase]_ | _[When realized]_ |
 
 **Risk Reduction:**
 
-| Benefit | Description | Estimated Value | Timeframe |
-|---------|-------------|-----------------|-----------|
-| _[Benefit]_ | _[What risk is mitigated]_ | _[Qualitative / $X avoided]_ | _[When realized]_ |
-| _[Benefit]_ | _[What risk is mitigated]_ | _[Qualitative / $X avoided]_ | _[When realized]_ |
+| # | Risk Area | Current Exposure | Expected Improvement | Timeframe |
+|---|-----------|------------------|----------------------|-----------|
+| 1 | _[Risk area: compliance, security, operational]_ | _[Current risk level or gap]_ | _[How risk is reduced or eliminated]_ | _[When realized]_ |
+| 2 | _[Risk area: compliance, security, operational]_ | _[Current risk level or gap]_ | _[How risk is reduced or eliminated]_ | _[When realized]_ |
 
----
+**Productivity Improvements:**
 
-### [ ] Cost-Benefit Summary
+| # | Area | Current State | Expected Improvement | Timeframe |
+|---|------|---------------|----------------------|-----------|
+| 1 | _[Team / function affected]_ | _[Current productivity constraint]_ | _[Expected improvement: capacity freed, quality increase, error reduction]_ | _[When realized]_ |
+| 2 | _[Team / function affected]_ | _[Current productivity constraint]_ | _[Expected improvement: capacity freed, quality increase, error reduction]_ | _[When realized]_ |
 
-| Metric | Value |
-|--------|-------|
-| **Total Investment (Year 1)** | _[$X]_ |
-| **Total Annual Benefits** | _[$X/year]_ |
-| **Net Present Value (NPV)** | _[$X over N years]_ |
-| **Return on Investment (ROI)** | _[X%]_ |
-| **Payback Period** | _[X months]_ |
-| **Break-Even Point** | _[Date or month]_ |
+**Additional Value (Compliance, User Experience, etc.):**
+
+| # | Category | Description | Impact Level | Timeframe |
+|---|----------|-------------|--------------|-----------|
+| 1 | _[Category]_ | _[Description of value delivered]_ | _[High / Medium / Low]_ | _[When realized]_ |
+| 2 | _[Category]_ | _[Description of value delivered]_ | _[High / Medium / Low]_ | _[When realized]_ |
 
 ---
 
@@ -208,11 +152,11 @@
 
 ### [ ] Alternatives Considered
 
-| # | Alternative | Description | Pros | Cons | Estimated Cost | Reason Not Selected |
-|---|------------|-------------|------|------|----------------|---------------------|
-| 1 | _[Alternative name]_ | _[Brief description]_ | _[Key advantages]_ | _[Key disadvantages]_ | _[$X]_ | _[Why rejected]_ |
-| 2 | _[Alternative name]_ | _[Brief description]_ | _[Key advantages]_ | _[Key disadvantages]_ | _[$X]_ | _[Why rejected]_ |
-| 3 | Do Nothing | _[Maintain status quo]_ | _[No cost, no disruption]_ | _[Problems persist]_ | _[$0]_ | _[Why rejected]_ |
+| # | Alternative | Description | Pros | Cons | Reason Not Selected |
+|---|------------|-------------|------|------|---------------------|
+| 1 | _[Alternative name]_ | _[Brief description]_ | _[Key advantages]_ | _[Key disadvantages]_ | _[Why rejected]_ |
+| 2 | _[Alternative name]_ | _[Brief description]_ | _[Key advantages]_ | _[Key disadvantages]_ | _[Why rejected]_ |
+| 3 | Do Nothing | _[Maintain status quo]_ | _[No disruption]_ | _[Problems persist]_ | _[Why rejected]_ |
 
 ---
 
@@ -244,8 +188,7 @@ _[Enter any conditions or comments from approvers]_
 ## COMPLETION CHECKLIST
 
 - [ ] All required sections filled
-- [ ] Cost estimates validated with Finance
-- [ ] Benefits quantified with supporting data
+- [ ] Business value assessment completed with qualitative impact analysis
 - [ ] Risk assessment reviewed with stakeholders
 - [ ] Success metrics are measurable and time-bound
 - [ ] Reviewed by Product Owner

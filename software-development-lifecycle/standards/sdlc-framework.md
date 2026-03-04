@@ -181,7 +181,7 @@
 
 | Phase | Artifact | Description | Owner |
 |-------|----------|-------------|-------|
-| 1 - Business Analysis | Business Case | Justification for the project including cost-benefit analysis, risk assessment, and strategic alignment | Business Analyst |
+| 1 - Business Analysis | Business Case | Justification for the project including risk assessment and strategic alignment | Business Analyst |
 | 1 - Business Analysis | Project Charter | Formal authorization of the project with high-level scope, objectives, and constraints | Project Sponsor |
 | 1 - Business Analysis | Stakeholder Register | Identification of all stakeholders with their interests, influence, and communication needs | Business Analyst |
 | 2 - Requirements Engineering | Business Requirements Document (BRD) | Business-level requirements describing what the organization needs | Business Analyst |
@@ -292,7 +292,7 @@
 
 | Item | Description | Responsible |
 |------|-------------|-------------|
-| Sponsor identified | A named project sponsor who has budget authority and will approve the business case | Department head |
+| Sponsor identified | A named project sponsor who will approve the business case | Department head |
 | Product owner assigned | A named product owner who will define priorities and accept deliverables | Project sponsor |
 | Business analyst assigned | A named business analyst who will lead requirements elicitation | Resource manager |
 | Initial problem statement | A written description of the business need or opportunity (may be informal) | Project sponsor |
@@ -340,7 +340,7 @@
 
 | Role | Primary Responsibilities |
 |------|-------------------------|
-| Project Sponsor | Approves business case, funds project, resolves escalations, makes go/no-go decisions at major gates |
+| Project Sponsor | Approves business case, resolves escalations, makes go/no-go decisions at major gates |
 | Product Owner | Defines business requirements, prioritizes backlog, accepts deliverables, participates in UAT |
 | Business Analyst | Elicits and documents requirements, facilitates stakeholder communication, maintains the RTM |
 | Tech Lead | Owns architecture and design decisions, reviews code, mentors developers, approves technical artifacts |

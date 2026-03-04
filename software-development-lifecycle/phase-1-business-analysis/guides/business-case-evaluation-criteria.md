@@ -14,13 +14,13 @@
 - [ ] Scoring performed by at least two independent reviewers
 - [ ] "Do nothing" option included and scored
 - [ ] Strategic alignment validated with sponsor
-- [ ] Financial projections reviewed by finance team
+
 - [ ] Technical feasibility confirmed by technical lead or architect
 - [ ] Risk profile reviewed by risk/compliance stakeholder
 - [ ] Resource availability confirmed with resource managers
 - [ ] Scoring rationale documented for each criterion
 - [ ] Recommended option identified with clear justification
-- [ ] Sensitivity analysis performed on key financial assumptions
+
 - [ ] Executive summary prepared for governance review
 
 ---
@@ -30,7 +30,7 @@
 | # | Criterion | Weight | Score Range | Description |
 |---|-----------|--------|-------------|-------------|
 | 1 | Strategic Alignment | 25% | 1-5 | Degree to which the option supports organizational strategy and objectives |
-| 2 | Financial Viability | 25% | 1-5 | Strength of ROI, payback period, NPV, and cost-benefit ratio |
+| 2 | Business Value | 25% | 1-5 | Strength of qualitative impact assessment, efficiency gains, and value realization potential |
 | 3 | Technical Feasibility | 20% | 1-5 | Confidence in the ability to deliver the solution with available technology and skills |
 | 4 | Risk Profile | 15% | 1-5 | Acceptability of identified risks after mitigation (higher score = lower residual risk) |
 | 5 | Resource Availability | 15% | 1-5 | Availability of required people, infrastructure, and vendor capacity within the timeline |
@@ -60,15 +60,15 @@
 | 2 | Tangential connection to strategy; alignment contested by stakeholders |
 | 1 | No demonstrable link to organizational strategy |
 
-### Financial Viability (1-5)
+### Business Value (1-5)
 
 | Score | Indicator |
 |-------|-----------|
-| 5 | Positive NPV; payback within 12 months; ROI exceeds organizational threshold by >50% |
-| 4 | Positive NPV; payback within 24 months; ROI meets organizational threshold |
-| 3 | Break-even within 36 months; ROI near threshold; assumptions carry moderate uncertainty |
-| 2 | Break-even beyond 36 months; ROI below threshold; significant assumption uncertainty |
-| 1 | Negative NPV; no credible path to positive return |
+| 5 | Clear, high-impact value across multiple categories; strong efficiency gains; rapid value realization |
+| 4 | Significant value in primary categories; measurable efficiency gains; value realized within 12 months |
+| 3 | Moderate value; some efficiency gains; assumptions carry moderate uncertainty |
+| 2 | Limited demonstrable value; significant assumption uncertainty |
+| 1 | No demonstrable business value; no credible path to meaningful improvement |
 
 ### Technical Feasibility (1-5)
 
@@ -107,7 +107,7 @@
 | Criterion | Weight | Option A Score | Option A Weighted | Option B Score | Option B Weighted | Do Nothing Score | Do Nothing Weighted |
 |-----------|--------|---------------|-------------------|---------------|-------------------|-----------------|---------------------|
 | Strategic Alignment | 0.25 | ___ | ___ | ___ | ___ | ___ | ___ |
-| Financial Viability | 0.25 | ___ | ___ | ___ | ___ | ___ | ___ |
+| Business Value | 0.25 | ___ | ___ | ___ | ___ | ___ | ___ |
 | Technical Feasibility | 0.20 | ___ | ___ | ___ | ___ | ___ | ___ |
 | Risk Profile | 0.15 | ___ | ___ | ___ | ___ | ___ | ___ |
 | Resource Availability | 0.15 | ___ | ___ | ___ | ___ | ___ | ___ |
@@ -120,7 +120,7 @@
 | Situation | Adjustment | Rationale |
 |-----------|------------|-----------|
 | Regulatory mandate driving the project | Increase Strategic Alignment to 35%; reduce others proportionally | Compliance is non-negotiable; other factors secondary |
-| Tight budget environment | Increase Financial Viability to 35%; reduce others proportionally | Financial constraints dominate decision-making |
+| Resource-constrained environment | Increase Business Value to 35%; reduce others proportionally | Value justification is paramount when resources are scarce |
 | Novel technology involved | Increase Technical Feasibility to 30%; reduce others proportionally | Delivery risk is the primary concern |
 | Resource-constrained organization | Increase Resource Availability to 25%; reduce others proportionally | Inability to staff will delay or block delivery |
 | High-risk regulatory environment | Increase Risk Profile to 25%; reduce others proportionally | Residual risk tolerance is low |

@@ -99,7 +99,6 @@
 
 | Constraint Type | Description | Impact |
 |----------------|-------------|--------|
-| **Budget** | _[Total budget cap, funding source]_ | _[Impact if exceeded]_ |
 | **Timeline** | _[Hard deadlines, regulatory dates, market windows]_ | _[Impact if missed]_ |
 | **Technology** | _[Required platforms, languages, integrations, standards]_ | _[Impact on design]_ |
 | **Regulatory** | _[Compliance requirements, data residency, certifications]_ | _[Impact on scope]_ |
@@ -151,8 +150,8 @@
 |----------|--------|-----------|---------|-------|
 | Project Team | _[Stand-up / Slack]_ | _[Daily]_ | _[Progress, blockers]_ | _[Name]_ |
 | Stakeholders | _[Status Report / Email]_ | _[Weekly]_ | _[Milestones, risks, decisions]_ | _[Name]_ |
-| Sponsor | _[Steering Committee]_ | _[Bi-weekly / Monthly]_ | _[Budget, timeline, escalations]_ | _[Name]_ |
-| Leadership | _[Executive Summary]_ | _[Monthly]_ | _[High-level status, ROI tracking]_ | _[Name]_ |
+| Sponsor | _[Steering Committee]_ | _[Bi-weekly / Monthly]_ | _[Timeline, escalations, decisions]_ | _[Name]_ |
+| Leadership | _[Executive Summary]_ | _[Monthly]_ | _[High-level status, value delivery]_ | _[Name]_ |
 
 **Escalation Path:**
 

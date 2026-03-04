@@ -92,7 +92,7 @@ IF disagreement on requirement priority
 IF disagreement on technical feasibility
     THEN escalate to Tech Lead (A for decomposition/SRS)
 
-IF disagreement on scope or budget impact
+IF disagreement on scope impact
     THEN escalate to Project Sponsor (A for baseline approval)
 ```
 

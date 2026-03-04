@@ -114,7 +114,6 @@
 
 | Constraint Type | Description | Impact |
 |----------------|-------------|--------|
-| **Budget** | Total project budget capped at $150,000 (including $20K contingency). Funded from Operations capital budget FY2026. | Limits team size to 4 developers; no room for additional contractor resources beyond planned UI/UX engagement |
 | **Timeline** | 6-month development window (April-September 2026) with production launch targeted for October 15, 2026. Hard deadline driven by Q4 client contract renewal presentations. | Scope must be prioritized ruthlessly; layout builder is first candidate for deferral if timeline slips |
 | **Technology** | Must deploy on single DigitalOcean droplet (company standard for internal tools). No AWS/Azure/GCP. Python/Flask mandated by existing team skills. | Limits horizontal scaling options; must design for vertical scaling within droplet tier; no managed database services available |
 | **Regulatory** | PDF reports must include ZATCA-compliant headers (company tax registration number, VAT number, sequential document numbering). Arabic language support required for client-facing outputs. | Adds RTL CSS complexity; report template must pass ZATCA format validation; requires Arabic content review by native speaker |
@@ -131,7 +130,7 @@
 | 3 | SQLite is sufficient for the expected data volume (~600 projects/year, ~25 concurrent users) | Performance degradation under concurrent writes; requires database migration mid-project | Load test with simulated 50 concurrent users against SQLite in Sprint 1; define migration trigger thresholds |
 | 4 | Field engineers have reliable internet access at project sites for web application use | Application is unusable in the field; adoption drops; engineers revert to Excel | Survey field engineers on connectivity; if unreliable, implement offline-capable PWA features (adds ~3 weeks to scope) |
 | 5 | DigitalOcean droplet with 4 vCPU / 8GB RAM can handle production workload including PDF generation | PDF generation under load causes server timeouts; degraded user experience | Benchmark ReportLab PDF generation at 10 concurrent reports on target hardware in Sprint 2 |
-| 6 | Client requirements form will receive adequate submission volume without marketing push | Self-service target of 30% is not met; ROI for client portal component is reduced | Plan email campaign to top 50 clients at launch; include QR code linking to form on all printed quotations |
+| 6 | Client requirements form will receive adequate submission volume without marketing push | Self-service target of 30% is not met; value of client portal component is reduced | Plan email campaign to top 50 clients at launch; include QR code linking to form on all printed quotations |
 
 ---
 
@@ -153,7 +152,7 @@
 
 | Role | Name | Responsibilities | Availability |
 |------|------|-----------------|--------------|
-| Project Sponsor | Ahmed Al-Rashid | Strategic direction; budget approval; escalation resolution; executive stakeholder communication; go/no-go decisions at phase gates | 10% (bi-weekly steering meetings + ad hoc escalations) |
+| Project Sponsor | Ahmed Al-Rashid | Strategic direction; resource approval; escalation resolution; executive stakeholder communication; go/no-go decisions at phase gates | 10% (bi-weekly steering meetings + ad hoc escalations) |
 | Product Owner | Fatima Hassan | Requirements prioritization; backlog grooming; sprint review acceptance; user story approval; UAT coordination with field engineers; Arabic content review | 50% (daily standups + weekly grooming + sprint reviews) |
 | Business Analyst | Sarah Chen | Requirements elicitation and documentation; stakeholder interviews; user story writing; process mapping; acceptance criteria definition; traceability matrix | 100% (dedicated to project) |
 | Tech Lead | Mohammad Al-Farsi | Architecture decisions; code reviews; technical mentoring; database design; deployment pipeline; performance optimization; production support handoff | 80% (20% allocated to existing production systems) |
@@ -171,7 +170,7 @@
 | Development Team | Daily standup (15 min, Microsoft Teams) | Daily (9:00 AM AST) | Yesterday's progress, today's plan, blockers | Mohammad Al-Farsi |
 | Product Owner + BA | Sprint planning / backlog grooming (Teams) | Weekly (Sunday 10:00 AM AST) | Story prioritization, acceptance criteria review, scope questions | Sarah Chen |
 | Project Stakeholders | Sprint review demo + written status report | Bi-weekly (end of each sprint) | Completed features demo, velocity metrics, upcoming sprint plan, risks and issues | Sarah Chen |
-| Sponsor + CFO | Steering committee meeting | Monthly (first Thursday) | Budget burn, timeline status, risk register updates, escalations, go/no-go decisions | Fatima Hassan |
+| Sponsor | Steering committee meeting | Monthly (first Thursday) | Timeline status, risk register updates, escalations, go/no-go decisions | Fatima Hassan |
 | Field Engineers (UAT group) | Hands-on testing session + feedback form | Bi-weekly (starting Sprint 4) | New feature walkthrough, usability feedback, bug reporting, workflow validation | Fatima Hassan |
 | All Staff | Company-wide update email | Monthly | Project progress highlights, launch timeline, training schedule | Ahmed Al-Rashid |
 
@@ -181,7 +180,7 @@
 |-------|-------------------|-------------|--------------|
 | 1 | Task blocked > 1 day; technical decision needed | Mohammad Al-Farsi (Tech Lead) | 4 hours |
 | 2 | Sprint goal at risk; scope/timeline conflict; resource conflict | Fatima Hassan (Product Owner) | 1 business day |
-| 3 | Budget overrun > 10%; timeline slip > 2 weeks; critical technical risk materialized | Ahmed Al-Rashid (Sponsor) | 2 business days |
+| 3 | Timeline slip > 2 weeks; critical technical risk materialized; resource conflict | Ahmed Al-Rashid (Sponsor) | 2 business days |
 
 ---
 
@@ -229,11 +228,10 @@
 
 **Conditions of Authorization:**
 
-1. Budget ceiling of $150,000 (including $20K contingency) is firm. Any projected overrun must be escalated to Sponsor and CFO before additional spend is committed.
-2. Monthly budget burn reports must be submitted to Sponsor and CFO by the 5th business day of each month.
-3. If timeline slips beyond 2 weeks, the Equipment Layout Builder (Scope Item #4) will be descoped to Phase 2 to protect the October 15 launch date.
-4. Arabic RTL support must be implemented incrementally from Sprint 1 -- it is not acceptable to defer all Arabic work to the end.
-5. A formal go/no-go decision will be made at the UAT milestone (September 30, 2026) before production deployment proceeds.
+1. Monthly progress reports must be submitted to Sponsor by the 5th business day of each month.
+2. If timeline slips beyond 2 weeks, the Equipment Layout Builder (Scope Item #4) will be descoped to Phase 2 to protect the October 15 launch date.
+3. Arabic RTL support must be implemented incrementally from Sprint 1 -- it is not acceptable to defer all Arabic work to the end.
+4. A formal go/no-go decision will be made at the UAT milestone (September 30, 2026) before production deployment proceeds.
 
 **Distribution List:**
 
@@ -243,8 +241,7 @@
 | 2 | Fatima Hassan | Rental Operations Manager (Product Owner) | 2026-03-05 |
 | 3 | Sarah Chen | Senior Business Analyst | 2026-03-05 |
 | 4 | Mohammad Al-Farsi | Tech Lead | 2026-03-05 |
-| 5 | Khalid Nasser | CFO | 2026-03-05 |
-| 6 | Omar Ibrahim | IT Director | 2026-03-05 |
+| 5 | Omar Ibrahim | IT Director | 2026-03-05 |
 
 ---
 

@@ -59,7 +59,7 @@ Key documents:
 - [Stakeholder Management Standard](phase-1-business-analysis/standards/stakeholder-management-standard.md)
 - [Develop Business Case Runbook](phase-1-business-analysis/runbooks/develop-business-case.md)
 - [Create Project Charter Runbook](phase-1-business-analysis/runbooks/create-project-charter.md)
-- [Cost-Benefit Analysis Reference](phase-1-business-analysis/references/cost-benefit-analysis-reference.md)
+- [Business Value Assessment Reference](phase-1-business-analysis/references/business-value-assessment-reference.md)
 - Training: [Business Analysis Overview](phase-1-business-analysis/guides/training/business-analysis-overview.md)
 
 ---

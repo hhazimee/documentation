@@ -78,9 +78,9 @@ This architecture prioritizes simplicity, fast development velocity, and low ope
 | ID | Constraint | Type | Impact |
 |----|-----------|------|--------|
 | AC-001 | Single DigitalOcean droplet (4 vCPU, 8 GB RAM) | Infrastructure | Eliminates distributed architectures; must run all services on one server |
-| AC-002 | Team of 1-2 developers | Budget/Team | Favors simple stack, monolithic deployment, minimal ops overhead |
+| AC-002 | Team of 1-2 developers | Team | Favors simple stack, monolithic deployment, minimal ops overhead |
 | AC-003 | Must support Arabic RTL and bilingual content | Regulatory/UX | Requires i18n-aware frontend; Tailwind RTL utilities needed |
-| AC-004 | Budget under $50/month for infrastructure | Budget | Single droplet only; no managed database or CDN services |
+| AC-004 | Single DigitalOcean droplet (company standard for internal tools) | Infrastructure | Single droplet only; no managed database or CDN services |
 | AC-005 | Saudi Arabian data residency preferred | Regulatory | DigitalOcean region selection; no cross-border data transfer for client data |
 | AC-006 | Python team expertise | Technical | Backend must be Python-based; rules out Node.js, Go, Java backends |
 

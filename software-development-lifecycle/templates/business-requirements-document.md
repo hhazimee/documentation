@@ -131,7 +131,7 @@ Full stakeholder analysis: [Link to Stakeholder Analysis document]
 
 | ID | Constraint | Type | Impact |
 |----|-----------|------|--------|
-| CON-001 | [Constraint statement] | Budget/Schedule/Technical/Regulatory | [How it limits the project] |
+| CON-001 | [Constraint statement] | Schedule/Technical/Regulatory | [How it limits the project] |
 | | | | |
 
 ---
