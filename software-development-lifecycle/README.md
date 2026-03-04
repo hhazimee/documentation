@@ -4,6 +4,8 @@ Central framework for GlowPowerRental software project delivery.
 
 All documents follow the **QRH (Quick Reference Handbook)** format with metadata headers, actionable checklists, and cross-references. Background and educational content lives in `guides/training/` subdirectories.
 
+**Diagramming Standard:** All architecture and design diagrams must be created as **PlantUML** (`.puml`) files. Templates are available in `phase-3-system-architecture/diagrams/` and `phase-4-design/diagrams/`.
+
 ---
 
 ## Framework Alignment

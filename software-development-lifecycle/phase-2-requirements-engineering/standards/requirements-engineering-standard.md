@@ -93,6 +93,15 @@
 
 ---
 
+## Diagramming Requirements
+
+Use Case Diagrams may be created as PlantUML `.puml` files to visualize actor-system interactions. While not mandatory at Phase 2, they are recommended for medium and large projects.
+
+> **IF** medium or large project **THEN** create a PlantUML use case diagram showing actors and system use cases
+> **IF** small project **THEN** use case diagram optional
+
+---
+
 ## ISO 29148 Clause Mapping
 
 | ISO 29148 Clause | GlowPowerRental Artifact |
