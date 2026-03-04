@@ -31,7 +31,7 @@
 | Document Title | Power Atlas -- Software Requirements Specification |
 | Version | 1.1 |
 | Status | Approved |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date Created | 2026-02-01 |
 | Last Updated | 2026-02-28 |
 | Related BRD | Power Atlas BRD v1.2 (2026-02-20) |
@@ -40,17 +40,17 @@
 
 | Version | Date | Author | Description |
 |---------|------|--------|-------------|
-| 0.1 | 2026-02-01 | Hasan Hazime | Initial draft derived from BRD v1.0 |
-| 0.2 | 2026-02-10 | Hasan Hazime | Added layout builder and generator database requirements |
-| 1.0 | 2026-02-20 | Hasan Hazime | Complete SRS aligned with BRD v1.2 |
-| 1.1 | 2026-02-28 | Hasan Hazime | Incorporated QA review feedback; finalized NFRs |
+| 0.1 | 2026-02-01 | Hussein Hazime | Initial draft derived from BRD v1.0 |
+| 0.2 | 2026-02-10 | Hussein Hazime | Added layout builder and generator database requirements |
+| 1.0 | 2026-02-20 | Hussein Hazime | Complete SRS aligned with BRD v1.2 |
+| 1.1 | 2026-02-28 | Hussein Hazime | Incorporated QA review feedback; finalized NFRs |
 
 ### [x] Approvers
 
 | Name | Role | Signature | Date |
 |------|------|-----------|------|
 | Omar Farouk | Tech Lead | Approved | 2026-02-26 |
-| Hasan Hazime | Product Owner | Approved | 2026-02-27 |
+| Hussein Hazime | Product Owner | Approved | 2026-02-27 |
 | Layla Ibrahim | QA Lead | Approved | 2026-02-28 |
 
 ---

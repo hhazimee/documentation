@@ -33,7 +33,7 @@
 | Use Case ID | UC-001 |
 | Use Case Name | Calculate Power Requirements |
 | Version | 1.0 |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date | 2026-02-15 |
 | Status | Approved |
 
@@ -216,7 +216,7 @@ Returns to Main Flow at Step 8.
 | Use Case ID | UC-002 |
 | Use Case Name | Submit Client Requirements |
 | Version | 1.0 |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date | 2026-02-15 |
 | Status | Approved |
 
@@ -392,7 +392,7 @@ Returns to Main Flow at Step 7.
 | Use Case ID | UC-003 |
 | Use Case Name | Generate PDF Report |
 | Version | 1.0 |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date | 2026-02-16 |
 | Status | Approved |
 
@@ -555,7 +555,7 @@ Returns to Main Flow at Step 4.
 | Use Case ID | UC-004 |
 | Use Case Name | Create Equipment Layout |
 | Version | 1.0 |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date | 2026-02-17 |
 | Status | Approved |
 
@@ -738,7 +738,7 @@ Engineer continues working or simplifies the layout.
 | Use Case ID | UC-005 |
 | Use Case Name | Review and Approve Requirements |
 | Version | 1.0 |
-| Author | Hasan Hazime |
+| Author | Hussein Hazime |
 | Date | 2026-02-18 |
 | Status | Approved |
 
