@@ -178,5 +178,5 @@
 |----------|------|------|
 | Stakeholder Analysis Template | Template | [../templates/stakeholder-analysis-template.md](../templates/stakeholder-analysis-template.md) |
 | Requirements Engineering Standard | Standard | [../standards/requirements-engineering-standard.md](../standards/requirements-engineering-standard.md) |
-| SDLC Framework | Reference | [../standards/sdlc-framework.md](../standards/sdlc-framework.md) |
+| SDLC Framework | Reference | [../../standards/sdlc-framework.md](../../standards/sdlc-framework.md) |
 | Extract Business Requirements | Runbook | [extract-business-requirements.md](extract-business-requirements.md) |

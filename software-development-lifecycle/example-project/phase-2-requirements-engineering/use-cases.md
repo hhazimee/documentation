@@ -9,7 +9,7 @@
 | **Owner** | Business Analyst |
 | **Reviewer** | Tech Lead |
 | **SLA** | 2 business days per use case |
-| **Runbook** | [Extract Business Requirements](../../runbooks/extract-business-requirements.md) |
+| **Runbook** | [Extract Business Requirements](../../phase-2-requirements-engineering/runbooks/extract-business-requirements.md) |
 | **Last Verified** | 2026-03-04 |
 
 ---
@@ -938,7 +938,7 @@ Use case ends (the review action itself was still successful).
 
 | Artifact | Link |
 |----------|------|
-| Producing Runbook | [Extract Business Requirements](../../runbooks/extract-business-requirements.md) |
+| Producing Runbook | [Extract Business Requirements](../../phase-2-requirements-engineering/runbooks/extract-business-requirements.md) |
 | Business Requirements Document | [BRD](business-requirements-document.md) |
 | Software Requirements Specification | [SRS](software-requirements-specification.md) |
 | Requirements Traceability Matrix | [RTM](requirements-traceability-matrix.md) |

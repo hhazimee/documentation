@@ -483,4 +483,4 @@ VALUES (
 | API Specification | API contracts that read/write this data | ./api-specification.md |
 | Design Review Checklist | Review gate for data model design | ./design-review-checklist.md |
 | Design Data Models Runbook | Step-by-step procedure | ../../../phase-4-design/runbooks/design-data-models.md |
-| Software Requirements Specification | Source requirements (SWR-XXX) | ../../phase-2-requirements-engineering/software-requirements-specification.md |
+| Software Requirements Specification | Source requirements (SWR-XXX) | ../phase-2-requirements-engineering/software-requirements-specification.md |

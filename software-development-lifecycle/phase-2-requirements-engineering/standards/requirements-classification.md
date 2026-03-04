@@ -92,7 +92,7 @@
 
 | Document | Type | Link |
 |----------|------|------|
-| SDLC Framework Standard | Standard | ../standards/sdlc-framework.md |
+| SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Requirements Engineering Standard | Standard | ../standards/requirements-engineering-standard.md |
 | Requirements Traceability Standard | Standard | ../standards/requirements-traceability.md |
 | Extract Business Requirements | Runbook | ../runbooks/extract-business-requirements.md |

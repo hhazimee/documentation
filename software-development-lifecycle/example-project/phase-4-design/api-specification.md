@@ -596,4 +596,4 @@ The `details` field is optional and included when validation errors provide fiel
 | Data Model Document | Underlying data structures | ./data-model.md |
 | Design Review Checklist | Review gate for API design | ./design-review-checklist.md |
 | Design API Contracts Runbook | Step-by-step procedure | ../../../phase-4-design/runbooks/design-api-contracts.md |
-| Software Requirements Specification | Source requirements (SWR-XXX) | ../../phase-2-requirements-engineering/software-requirements-specification.md |
+| Software Requirements Specification | Source requirements (SWR-XXX) | ../phase-2-requirements-engineering/software-requirements-specification.md |

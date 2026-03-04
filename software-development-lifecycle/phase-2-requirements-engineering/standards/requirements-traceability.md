@@ -103,7 +103,7 @@
 
 | Document | Type | Link |
 |----------|------|------|
-| SDLC Framework Standard | Standard | ../standards/sdlc-framework.md |
+| SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Requirements Engineering Standard | Standard | ../standards/requirements-engineering-standard.md |
 | Requirements Classification Standard | Standard | ../standards/requirements-classification.md |
 | Validate Requirements | Runbook | ../runbooks/validate-requirements.md |

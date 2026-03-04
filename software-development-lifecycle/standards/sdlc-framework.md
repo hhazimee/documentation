@@ -453,11 +453,11 @@
 
 | Document | Type | Link |
 |----------|------|------|
-| Requirements Engineering Standard | Standard | ../standards/requirements-engineering-standard.md |
-| Requirements Classification Standard | Standard | ../standards/requirements-classification.md |
-| Requirements Traceability Standard | Standard | ../standards/requirements-traceability.md |
-| Conduct Stakeholder Analysis | Runbook | ../runbooks/conduct-stakeholder-analysis.md |
-| Extract Business Requirements | Runbook | ../runbooks/extract-business-requirements.md |
-| Derive Software Requirements | Runbook | ../runbooks/derive-software-requirements.md |
-| Validate Requirements | Runbook | ../runbooks/validate-requirements.md |
-| Manage Requirements Changes | Runbook | ../runbooks/manage-requirements-changes.md |
+| Requirements Engineering Standard | Standard | ../phase-2-requirements-engineering/standards/requirements-engineering-standard.md |
+| Requirements Classification Standard | Standard | ../phase-2-requirements-engineering/standards/requirements-classification.md |
+| Requirements Traceability Standard | Standard | ../phase-2-requirements-engineering/standards/requirements-traceability.md |
+| Conduct Stakeholder Analysis | Runbook | ../phase-2-requirements-engineering/runbooks/conduct-stakeholder-analysis.md |
+| Extract Business Requirements | Runbook | ../phase-2-requirements-engineering/runbooks/extract-business-requirements.md |
+| Derive Software Requirements | Runbook | ../phase-2-requirements-engineering/runbooks/derive-software-requirements.md |
+| Validate Requirements | Runbook | ../phase-2-requirements-engineering/runbooks/validate-requirements.md |
+| Manage Requirements Changes | Runbook | ../phase-2-requirements-engineering/runbooks/manage-requirements-changes.md |

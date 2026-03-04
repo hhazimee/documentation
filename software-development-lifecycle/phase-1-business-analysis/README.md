@@ -70,4 +70,4 @@
 | Direction | Phase | Link |
 |-----------|-------|------|
 | Parent | SDLC Framework | [../README.md](../README.md) |
-| Next | Phase 2 -- Requirements & Planning | [../phase-2-requirements-planning/README.md](../phase-2-requirements-planning/README.md) |
+| Next | Phase 2 -- Requirements Engineering | [../phase-2-requirements-engineering/README.md](../phase-2-requirements-engineering/README.md) |

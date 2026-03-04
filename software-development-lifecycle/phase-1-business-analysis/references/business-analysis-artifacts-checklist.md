@@ -139,5 +139,5 @@ ELSE
 | Business Analysis RACI Matrix | Reference | ./business-analysis-raci-matrix.md |
 | SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Phase 1 Standards | Standard | ../standards/phase-1-standards.md |
-| Stakeholder Analysis Template | Template | ../../templates/stakeholder-analysis-template.md |
-| Glossary | Reference | ../../references/glossary.md |
+| Stakeholder Analysis Template | Template | ../../phase-2-requirements-engineering/templates/stakeholder-analysis-template.md |
+| Glossary | Reference | ../../phase-2-requirements-engineering/references/glossary.md |

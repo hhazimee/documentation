@@ -531,4 +531,4 @@ OUTPUT: success message
 | API Specification | API contracts for this component | ./api-specification.md |
 | Data Model Document | Full data model details | ./data-model.md |
 | Design Review Checklist | Review gate for this document | ./design-review-checklist.md |
-| Software Requirements Specification | Source requirements (SWR-XXX) | ../../phase-2-requirements-engineering/software-requirements-specification.md |
+| Software Requirements Specification | Source requirements (SWR-XXX) | ../phase-2-requirements-engineering/software-requirements-specification.md |

@@ -167,9 +167,9 @@ ELSE IF clause is ISO 42010 Architecture Decisions
 | Requirements Engineering Standard | Standard | ../standards/requirements-engineering-standard.md |
 | Requirements Classification Standard | Standard | ../standards/requirements-classification.md |
 | Requirements Traceability Standard | Standard | ../standards/requirements-traceability.md |
-| SDLC Framework | Standard | ../standards/sdlc-framework.md |
-| Architecture Description Standard | Standard | ../phase-3-system-architecture/standards/architecture-description-standard.md |
-| Architecture Decision Records Standard | Standard | ../phase-3-system-architecture/standards/architecture-decision-records-standard.md |
+| SDLC Framework | Standard | ../../standards/sdlc-framework.md |
+| Architecture Description Standard | Standard | ../../phase-3-system-architecture/standards/architecture-description-standard.md |
+| Architecture Decision Records Standard | Standard | ../../phase-3-system-architecture/standards/architecture-decision-records-standard.md |
 | Requirements Artifacts Checklist | Reference | ./requirements-artifacts-checklist.md |
 | Glossary | Reference | ./glossary.md |
 | RACI Matrix | Reference | ./raci-matrix.md |

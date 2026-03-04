@@ -9,7 +9,7 @@
 | **Owner** | Business Analyst |
 | **Reviewer** | Product Owner |
 | **SLA** | 5 business days from stakeholder interviews complete |
-| **Runbook** | [Extract Business Requirements](../../runbooks/extract-business-requirements.md) |
+| **Runbook** | [Extract Business Requirements](../../phase-2-requirements-engineering/runbooks/extract-business-requirements.md) |
 | **Last Verified** | 2026-03-04 |
 
 ---
@@ -234,7 +234,7 @@ Full stakeholder analysis: [Stakeholder Analysis](../phase-1-business-analysis/s
 
 | Artifact | Link |
 |----------|------|
-| Producing Runbook | [Extract Business Requirements](../../runbooks/extract-business-requirements.md) |
+| Producing Runbook | [Extract Business Requirements](../../phase-2-requirements-engineering/runbooks/extract-business-requirements.md) |
 | Stakeholder Analysis | [Stakeholder Analysis](../phase-1-business-analysis/stakeholder-analysis.md) |
 | Software Requirements Specification | [SRS](software-requirements-specification.md) |
 | Requirements Traceability Matrix | [RTM](requirements-traceability-matrix.md) |

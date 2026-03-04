@@ -9,7 +9,7 @@
 | **Owner** | Business Analyst |
 | **Reviewer** | QA Lead |
 | **SLA** | Maintained continuously; reviewed at each phase gate |
-| **Runbook** | [Derive Software Requirements](../../runbooks/derive-software-requirements.md) |
+| **Runbook** | [Derive Software Requirements](../../phase-2-requirements-engineering/runbooks/derive-software-requirements.md) |
 | **Last Verified** | 2026-03-04 |
 
 ---
@@ -191,7 +191,7 @@
 
 | Artifact | Link |
 |----------|------|
-| Producing Runbook | [Derive Software Requirements](../../runbooks/derive-software-requirements.md) |
+| Producing Runbook | [Derive Software Requirements](../../phase-2-requirements-engineering/runbooks/derive-software-requirements.md) |
 | Business Requirements Document | [BRD](business-requirements-document.md) |
 | Software Requirements Specification | [SRS](software-requirements-specification.md) |
-| Change Request Form | [Change Request Form](../../templates/change-request-form.md) |
+| Change Request Form | [Change Request Form](../../phase-2-requirements-engineering/templates/change-request-form.md) |

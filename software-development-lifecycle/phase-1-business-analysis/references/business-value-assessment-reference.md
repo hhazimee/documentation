@@ -169,4 +169,4 @@ ELSE IF no meaningful value areas identified
 | Business Analysis RACI Matrix | Reference | ./business-analysis-raci-matrix.md |
 | SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Phase 1 Standards | Standard | ../standards/phase-1-standards.md |
-| Glossary | Reference | ../../references/glossary.md |
+| Glossary | Reference | ../../phase-2-requirements-engineering/references/glossary.md |

@@ -130,7 +130,7 @@ IF any role is unavailable for >3 business days
 | Initial Stakeholder Identification | Runbook | ../runbooks/conduct-initial-stakeholder-identification.md |
 | Business Analysis Artifacts Checklist | Reference | ./business-analysis-artifacts-checklist.md |
 | Business Value Assessment Reference | Reference | ./business-value-assessment-reference.md |
-| RACI Matrix -- Requirements Engineering | Reference | ../../references/raci-matrix.md |
+| RACI Matrix -- Requirements Engineering | Reference | ../../phase-2-requirements-engineering/references/raci-matrix.md |
 | SDLC Framework Standard | Standard | ../../standards/sdlc-framework.md |
 | Phase 1 Standards | Standard | ../standards/phase-1-standards.md |
-| Glossary | Reference | ../../references/glossary.md |
+| Glossary | Reference | ../../phase-2-requirements-engineering/references/glossary.md |

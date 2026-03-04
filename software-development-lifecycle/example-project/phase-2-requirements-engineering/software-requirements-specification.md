@@ -9,7 +9,7 @@
 | **Owner** | Business Analyst / Tech Lead |
 | **Reviewer** | QA Lead |
 | **SLA** | 10 business days from BRD baseline |
-| **Runbook** | [Derive Software Requirements](../../runbooks/derive-software-requirements.md) |
+| **Runbook** | [Derive Software Requirements](../../phase-2-requirements-engineering/runbooks/derive-software-requirements.md) |
 | **Last Verified** | 2026-03-04 |
 
 ---
@@ -410,7 +410,7 @@ See [Use Cases](use-cases.md) for the top 5 detailed use case specifications:
 
 | Artifact | Link |
 |----------|------|
-| Producing Runbook | [Derive Software Requirements](../../runbooks/derive-software-requirements.md) |
+| Producing Runbook | [Derive Software Requirements](../../phase-2-requirements-engineering/runbooks/derive-software-requirements.md) |
 | Business Requirements Document | [BRD](business-requirements-document.md) |
 | Requirements Traceability Matrix | [RTM](requirements-traceability-matrix.md) |
 | Use Cases | [Use Cases](use-cases.md) |
