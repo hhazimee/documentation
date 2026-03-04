@@ -20,7 +20,7 @@ All documents follow the **QRH (Quick Reference Handbook)** format with metadata
 
 | Phase | Description | Status | Documentation |
 |-------|-------------|--------|---------------|
-| 1. Business Analysis | Identify business needs and opportunities | Covered | -- |
+| 1. Business Analysis | Identify business needs and opportunities | **Fully documented** | [Phase 1](phase-1-business-analysis/) |
 | 2. Requirements Engineering | Elicit, analyze, specify, and validate requirements | **Fully documented** | [Standards](standards/), [Runbooks](runbooks/), [Guides](guides/), [References](references/), [Templates](templates/) |
 | 3. System Architecture | Define system structure, components, and interfaces | **Fully documented** | [Phase 3](phase-3-system-architecture/) |
 | 4. Design | Detail component design and data models | **Fully documented** | [Phase 4](phase-4-design/) |
@@ -46,6 +46,21 @@ All documents use the QRH format. Document types serve different operational pur
 | A design decision and its rationale | [architecture/decisions/](architecture/decisions/) | ADRs |
 
 > **Note:** Each phase's `guides/` directory contains a `training/` subdirectory with overview and educational documents. These provide onboarding context, not operational procedures.
+
+---
+
+## Phase 1: Business Analysis
+
+Full documentation: [Phase 1 README](phase-1-business-analysis/)
+
+Key documents:
+- [Business Case Standard](phase-1-business-analysis/standards/business-case-standard.md)
+- [Project Charter Standard](phase-1-business-analysis/standards/project-charter-standard.md)
+- [Stakeholder Management Standard](phase-1-business-analysis/standards/stakeholder-management-standard.md)
+- [Develop Business Case Runbook](phase-1-business-analysis/runbooks/develop-business-case.md)
+- [Create Project Charter Runbook](phase-1-business-analysis/runbooks/create-project-charter.md)
+- [Cost-Benefit Analysis Reference](phase-1-business-analysis/references/cost-benefit-analysis-reference.md)
+- Training: [Business Analysis Overview](phase-1-business-analysis/guides/training/business-analysis-overview.md)
 
 ---
 
