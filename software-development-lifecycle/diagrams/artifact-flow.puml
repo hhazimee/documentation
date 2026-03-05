@@ -1,0 +1,85 @@
+@startuml artifact-flow
+!theme plain
+skinparam backgroundColor white
+skinparam componentBackgroundColor #E8F4FD
+skinparam componentBorderColor #333333
+skinparam arrowColor #333333
+skinparam packageBackgroundColor #F8F9FA
+skinparam packageBorderColor #999999
+
+title GlowPowerRental SDLC - Artifact Flow Between Phases
+
+package "Phase 1\nBusiness Analysis" as P1 {
+  [Business Case] as BC
+  [Project Charter] as PC
+  [Stakeholder Register] as SR
+}
+
+package "Phase 2\nRequirements Engineering" as P2 {
+  [BRD] as BRD
+  [SRS] as SRS
+  [RTM] as RTM
+  [Validation Report] as VR
+}
+
+package "Phase 3\nSystem Architecture" as P3 {
+  [ADD] as ADD
+  [ADRs] as ADR
+  [PlantUML Diagrams\n(system-context, component,\nsequence, deployment,\nERD, state)] as P3D
+}
+
+package "Phase 4\nDesign" as P4 {
+  [DDD] as DDD
+  [API Specs] as API
+  [Data Model] as DM
+  [PlantUML Diagrams\n(class, API flow,\ndata flow)] as P4D
+}
+
+package "Phase 5\nDevelopment" as P5 {
+  [Source Code] as SC
+  [Unit Tests] as UT
+  [Code Review Records] as CR
+}
+
+package "Phase 6\nTesting" as P6 {
+  [Test Plan] as TP
+  [Test Cases] as TC
+  [Defect Reports] as DR
+  [UAT Sign-Off] as UAT
+}
+
+' Phase 1 -> Phase 2
+BC --> BRD : scope & context
+PC --> BRD : objectives
+SR --> BRD : stakeholder needs
+
+' Phase 2 -> Phase 3
+BRD --> ADD : architecture drivers
+SRS --> ADD : functional inputs
+SRS --> ADR : decision triggers
+
+' Phase 2 -> Phase 6
+SRS --> TC : test derivation
+BRD --> UAT : acceptance criteria
+
+' Phase 3 -> Phase 4
+ADD --> DDD : design constraints
+ADR --> DDD : technology decisions
+P3D --> P4D : refine & detail
+
+' Phase 4 -> Phase 5
+DDD --> SC : implementation specs
+API --> SC : API contracts
+DM --> SC : database schema
+
+' Phase 5 -> Phase 6
+SC --> TC : system under test
+SC --> DR : defect source
+
+' RTM spans all phases
+RTM --> ADD : architecture refs
+RTM --> DDD : design refs
+RTM --> SC : code refs
+RTM --> TC : test refs
+
+@enduml

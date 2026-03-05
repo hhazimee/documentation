@@ -1,0 +1,137 @@
+@startuml project-journey
+!theme plain
+skinparam backgroundColor white
+skinparam activityBorderColor #333333
+skinparam activityBackgroundColor #E8F4FD
+skinparam activityDiamondBackgroundColor #FFF3CD
+skinparam activityDiamondBorderColor #333333
+skinparam arrowColor #333333
+skinparam noteBackgroundColor #F8F9FA
+
+title GlowPowerRental SDLC - Project Journey
+
+|Kickoff|
+start
+:Complete Project Kickoff Checklist
+-- Sponsor identified
+-- Team assigned
+-- Repository created
+-- Communication channel established;
+
+|Phase 1: Business Analysis|
+:Step 1: Conduct Business Needs Analysis
+<i>(5 days)</i>
+→ Problem Statement;
+note right: Runbook: RB-P1-001
+
+:Step 2: Develop Business Case
+<i>(10 days)</i>
+→ Business Case, Risk Register, KPIs;
+note right: Runbook: RB-P1-002
+
+:Step 3: Identify Stakeholders
+<i>(3 days)</i>
+→ Stakeholder Register;
+note right: Runbook: RB-P1-004
+
+:Step 4: Create Project Charter
+<i>(5 days)</i>
+→ Project Charter, RACI, Milestones;
+note right: Runbook: RB-P1-003
+
+if (Gate Review\nSponsor + Product Owner) then (Proceed)
+else (Rework / Stop)
+  :Return to relevant step;
+  stop
+endif
+
+|Phase 2: Requirements Engineering|
+:Step 5: Conduct Stakeholder Analysis
+<i>(5 days)</i>
+→ Refined Register, Comms Plan;
+note right: Runbook: RB-P2-001
+
+:Step 6: Extract Business Requirements
+<i>(15 days)</i>
+→ BRD (baselined);
+note right: Runbook: RB-P2-002
+
+:Step 7: Derive Software Requirements
+<i>(5 days)</i>
+→ SRS;
+note right: Runbook: RB-P2-003
+
+:Step 8: Validate & Baseline Requirements
+→ RTM, Validation Report;
+note right: Runbook: RB-P2-004
+
+if (Gate Review\nPO + BA + Tech Lead + Domain Expert) then (Proceed)
+else (Rework / Stop)
+  :Return to relevant step;
+  stop
+endif
+
+|Phase 3: System Architecture|
+:Step 9: Create Architecture Description
+<i>(15 days)</i>
+→ ADD (ISO 42010 viewpoints)
+→ ADRs
+→ PlantUML diagrams:
+  system-context, component,
+  sequence, deployment, ERD, state;
+note right: Runbook: RB-P3-001
+
+if (Gate Review\nTech Lead + PO + QA Lead) then (Proceed)
+else (Rework / Stop)
+  :Return to relevant step;
+  stop
+endif
+
+|Phase 4: Design|
+:Step 10: Create Detailed Design
+<i>(10 days)</i>
+→ DDD, API Specs, Data Model
+→ PlantUML diagrams:
+  class, API flow, data flow;
+note right: Runbook: RB-P4-001
+
+if (Gate Review\nTech Lead + Developers) then (Proceed)
+else (Rework / Stop)
+  :Return to relevant step;
+  stop
+endif
+
+|Phase 5: Development|
+:Step 11: Implement Features (TDD)
+<i>(variable)</i>
+→ Source Code, Unit Tests
+→ PRs using PR template
+→ Code Review Records;
+note right: Runbook: RB-P5-001
+
+if (Gate Review\nTech Lead + QA Lead) then (Proceed)
+else (Rework / Stop)
+  :Return to relevant step;
+  stop
+endif
+
+|Phase 6: Testing|
+:Step 12: Execute Test Cycle
+<i>(variable)</i>
+→ Test Plan, Test Cases
+→ Defect Reports
+→ Test Summary Report
+→ UAT Sign-Off;
+note right: Runbook: RB-P6-001
+
+if (Gate Review\nPO + Tech Lead + QA Lead) then (Proceed)
+else (Rework / Stop)
+  :Return to relevant step;
+  stop
+endif
+
+|Deployment|
+:Phase 7: Deploy to Production;
+stop
+
+@enduml
